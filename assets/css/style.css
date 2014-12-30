@@ -1,0 +1,75 @@
+@charset "utf-8";
+
+/* Basic ------------------------------------------------------------ */
+body {
+	background-image: url(../images/bgs.gif);
+	background-color: #F4F4F4;
+	margin: 0px;
+	font: 0.75em/1.5 frutiger Linotype, Lucida Grande, Trebuchet MS, Verdana, Malgun Gothic, AppleGothic, Gulim, Dotum, sans-serif;
+	letter-spacing: 0px;
+	color : #666;
+}
+input, textarea {
+	font: 11px/1.5 white Trebuchet MS, Tahoma, Verdana, Malgun Gothic, AppleGothic, Dotum, sans-serif;
+	letter-spacing: 0px;
+	color : #666;
+}
+h4 { margin: 0.5em 0 0.5em 0; }
+a:link,
+a:visited,
+a:active		{ text-decoration: none; color : #222; }
+a:hover			{ text-decoration: underline; color : #ED1264; }
+img				{ border-width: 0px;}
+ul, ol, dl		{ margin: 0.6em; padding: 0; }
+li				{ margin: 0 0 0.4em 1.2em; padding-left: 0em; }
+.clearboth		{ clear: both; height:0; overflow: hidden; }
+
+#container							{ width: 830px; margin: 20px auto; padding: 10px; background-color: #FFF; }
+	#header							{ width: 830px; height: 180px; background-image: url(../images/header.gif); }
+		#header h1					{ font: 34px Trebuchet MS, sans-serif; color: #FFF; margin: 0 0 0 23px; padding-top: 10px;}
+		#header p					{ color: #FFF; margin: 40px 0 0 30px; }
+
+	#navigation						{ width: 830px; height: 40px; background-color: #99CC00; color: #FFF; margin-top: 1px; }
+	.header_spacer					{ height:10px; }
+		#navigation ul				{ margin: 0; padding: 10px 20px; text-align: right; }
+		#navigation li				{ display: inline; margin-left:30px; font-weight: bold; padding: 0;}
+		#navigation a				{ color : #FFF; }
+		#navigation a:hover			{ color : #ED1264; }
+
+	#main							{ padding:15px 0; }
+		#subMenu					{ float: left; width: 200px; }
+			.subMenu-title			{ height: 36px; background-image: url(../images/sub_menu_title.gif);
+									font: 1.4em Trebuchet MS, sans-serif; font-weight:bold; color: #3D3D3D; padding:13px 0 0 20px; }
+			.subMenu-content		{ background-image: url(../images/sub_menu_bg.gif); padding: 10px 17px; text-align: left; }
+				.subMenu-content p	{ margin: 5px 0 0 0; }
+			.subMenu-bottom			{ background-image: url(../images/sub_menu_bottom.gif); height:12px; margin-bottom: 5px; overflow: hidden; }
+			.extra-link				{ margin: 0 5px 0 0; text-align: right; }
+		#content					{ float: left; width: 585px; padding:10px 20px 15px 25px; text-align: justify; }
+		#content a:link,
+		#content a:visited,
+		#content a:active			{ text-decoration: none; background: transparent url(../images/link_dotted_underline.gif) repeat-x left bottom;}
+		#content a:hover			{ text-decoration: none; background: transparent url(../images/link_dotted_underline_hover.gif) repeat-x left bottom;}
+
+	#footer							{ background-image: url(../images/footer.gif); height: 43px; padding: 17px 20px 0 220px; font-size: 10px; }
+	#copyright						{ font-size: 11px; font-family: Tahoma, Lucida Grande, Malgun Gothic, AppleGothic, Dotum, sans-serif; font-weight: normal; }
+
+/* Page-specific ---------------------------------------------------- */
+
+#roles dt							{ font-weight: bold; }
+#roles dt .alt						{ padding-left: 10px; color: #969; }
+#roles dd							{ margin: 0 0 0.6em 15px; }
+
+.member-item						{ border:1px solid #E7E7E7; margin-bottom: 8px; width: 560px; }
+	.member-box						{ border:6px solid #F7F7F7; padding:7px; width: 546; height: 11.8em;}
+		.profile-img-bg				{ float:left; background: url(../images/profile_img_bg.gif) no-repeat; padding:3px; width:101px; height:101px; }
+		.profile-content			{ float:left; width:400px; margin:5px 10px;}
+			.profile-content h3		{ font:14px Malgun Gothic, AppleGothic, Gulim, sans-serif; color:#222; font-weight:bold; margin: 0; }
+			.profile-nick			{ font:18px Arial, sans-serif; color:#00A08C; font-weight: normal; }
+			.profile-role			{ font:18px Arial, sans-serif; color:#969; font-style:italic; font-weight: normal; }
+			.profile-content p		{ margin: 1.1em 0 0 0;}
+
+		.profile-content ul			{ margin: 3px 0 0 10px; padding-left: 0; }
+		.profile-content li			{ margin-bottom: 0; }
+		
+/* vi: set ts=4 noet sw=4 sts=4: */
+

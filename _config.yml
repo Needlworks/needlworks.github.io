@@ -1,0 +1,10 @@
+﻿encoding: utf-8
+name: Needlworks
+description: Needlworks' Home
+author: Joongi Kim
+author_email: daybreaker@needlworks.org
+markdown: rdiscount
+baseurl: 
+sass:
+    sass_dir: _sass
+    style: compressed
